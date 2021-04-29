@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">github_user</string>
+    <string name="attribution"><div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></string>
+    <string name="login">login</string>
+    <string name="github_logo">Github Logo</string>
+    <string name="github_logo_tittle">Github Logo Tittle</string>
+    <string name="github_user">Github User</string>
+    <string name="deskripsi_github">GitHub adalah layanan hos web bersama untuk proyek pengembangan perangkat lunak. Tekan tombol login di bawah ini untuk melanjutkan masuk ke dalam aplikasi.</string>
+    <string name="nama">Nama</string>
+    <string name="nama_user">Nama user</string>
+    <string name="username">Username</string>
+    <string name="github_user_picture">Github user picture</string>
+    <string name="kantor_pengguna">Kantor pengguna</string>
+    <string name="lokasi_pengguna">Lokasi Pengguna</string>
+    <string name="github_user_photo">Github user photo</string>
+    <string name="repository">Repository</string>
+    <string name="repository_value">0</string>
+    <string name="follower">Follower</string>
+    <string name="follower_value">0</string>
+    <string name="following">Following</string>
+    <string name="following_value">0</string>
+    <string name="back">Back</string>
+</resources>

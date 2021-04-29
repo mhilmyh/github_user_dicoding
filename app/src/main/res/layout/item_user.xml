@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/ripple_effect">
+
+    <ImageView
+        android:id="@+id/imageViewPicture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/github_user_picture" />
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@id/imageViewPicture"
+        android:text="@string/nama_user"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/imageViewPicture"
+        android:ellipsize="end"
+        android:text="@string/kantor_pengguna"
+        android:textSize="14sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCompany"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/imageViewPicture"
+        android:ellipsize="end"
+        android:text="@string/lokasi_pengguna"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
