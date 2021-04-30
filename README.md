@@ -2,12 +2,18 @@
 |------|----------------------|
 | Nama | Muhamad Hilmy Haidar |
 
-# Submission : Aplikasi Github User
+# Submission 1 : Aplikasi Github User
 
-Anda sudah mempelajari komponen-komponen dasar Android pada modul Fundamentals seperti:
+Kriteria Submission
+Fitur yang harus ada pada aplikasi:
 
-- Navigasi perpindahan halaman aplikasi menggunakan Intent (Intent : Latihan - Intent Sederhana).
-- Menerapkan Parcelable untuk transaksi data antar Activity (Intent : Latihan - Intent Explicit
- dengan Parcelable).
-- Latihan menerapkan ListView dalam menampilkan data berbetuk list (ListView : Latihan - ListView
- Sederhana) .
+## List User
+- Menampilkan data pada halaman aplikasi dengan minimal jumlah 10 item.
+- Menggunakan ListView untuk menampilkan data.
+
+## Detail User
+- Terdapat informasi detail dari seorang user. Berikut beberapa informasi yang wajib ditampilkan pada halaman aplikasi:
+  - Username
+  - Name
+  - Avatar
+- Menggunakan Parcelable sebagai interface dari obyek data yang akan dikirimkan antar Activity.
