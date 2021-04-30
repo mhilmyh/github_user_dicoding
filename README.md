@@ -1,4 +1,4 @@
-| Nama  | Muhamad Hilmy Haidar |
+Nama:Muhamad Hilmy Haidar
 
 # Submission : Aplikasi Github User
 
